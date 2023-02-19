@@ -3,9 +3,9 @@ package cz.czechitas.java.ukol01;
 import cz.czechitas.java.ukol01.engine.*;
 
 public class HlavniProgram {
-    private Turtle zofka;
+    public Turtle zofka;
 
-    private void start() {
+    public void start() {
 
         zofka = new Turtle();
         zofka.penUp();
@@ -92,7 +92,7 @@ public class HlavniProgram {
         mezeraPismeno();
     }
 
-    private void prase() {
+    public void prase() {
 
         for (int i = 0; i < 2; i++) {
             zofka.move(100);
@@ -257,7 +257,6 @@ public class HlavniProgram {
         zofka.penDown();
 
     }
-
 
     public static void main(String[] args) {
         new HlavniProgram().start();
