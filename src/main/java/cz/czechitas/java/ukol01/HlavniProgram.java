@@ -258,6 +258,7 @@ public class HlavniProgram {
 
     }
 
+
     public static void main(String[] args) {
         new HlavniProgram().start();
     }
